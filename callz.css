@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #264653;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center ;
+    height: 100vh;
+}
+.outer{
+    margin: 0%;
+    padding: 0%;
+    width: 50%;
+    background-color: #2A9D8F;
+    flex-direction: column;
+    display: flex;
+   /*justify-content: center;
+    //align-items: center;*/
+    height: 90%;
+    border-radius: 5px;
+}
+.in1{
+    width: 100%;
+    background-color: #8AB17D;
+    box-sizing: border-box;
+    height: 30%;
+    border: 7px solid;
+    padding: 10px;
+    border-color: #287271;
+    border-radius: 5px;
+}
+.in2{
+    background-color: #2A9D8F;
+    box-sizing: border-box;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.num{
+    background-color: #2A9D8F;
+    width: 60%;
+    height: 100%;
+    border-right: 3px solid;
+    border-color: #BABB74;
+    
+}
+.op{
+    background-color: #2A9D8F;
+    width: 40%;
+    height: 100%;
+}
+button{
+    background: none;
+    border: none;
+    padding: 3px 7px ;
+    height: 90%;
+    width: 30%;
+    font-size: 1.3rem;
+    color: #BABB74;
+}
+.br{
+     width: 95%;
+     height: 25%;
+     box-sizing: border-box;
+     display: flex;
+     
+     justify-content: space-evenly;
+}
+.or{
+    width: 95%;
+    height: 25%;
+    box-sizing: border-box;
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+.orb{
+    font-size:2rem;
+}
+.orq{
+    width: 90%;
+    font-size: 4rem;
+}
+button:hover{
+
+    box-shadow:5px 5px 5px  #F4A261 ;
+    }
+.in1{
+   
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-end;
+}
+.dis
+{
+    color: #264653;
+    font-weight: bold;
+    font-size: 2rem;
+}
+#epualto{
+    font-size: 2rem;
+}
+.side{
+    margin-left: 10px;
+    height: 80%;
+    width: 20%;
+    background-color: #8AB17D;
+    justify-self: flex-end;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 2rem;
+    color: #264653;
+    font-weight: bold;
+}
